@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".SignalActivity_1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:text="LINEAR LAYOUT"
+        android:textSize="20dp"
+        android:textColor="@color/warna_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UDAH 5G NIH BOSSS"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+    <EditText
+        android:id="@+id/subject"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TANGGAPAN"/>
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_marginTop="20dp"
+        android:layout_width="122dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:text="kirim"
+        tools:ignore="RtHardcoded" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KEMBALI"
+        android:textSize="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:onClick="kembali"/>
+
+
+</LinearLayout>

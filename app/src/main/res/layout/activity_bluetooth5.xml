@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".BluetoothActivity_5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="30dp"
+        android:text="TABLE LAYOUT"
+        android:textSize="20dp"
+        android:textColor="@color/warna_1"/>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_span="1"
+            android:text="BLUETOOTH NIH BOSS"
+            android:textColor="#890000"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="50dp">
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="135dp"
+           android:text="AKTIFKAN"
+           android:textSize="20dp"/>
+    </TableRow>
+</TableLayout>

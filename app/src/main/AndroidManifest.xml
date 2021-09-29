@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectintent">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectIntent">
+        <activity
+            android:name=".RotationActivity_9"
+            android:exported="true" />
+        <activity
+            android:name=".LocationActivity_8"
+            android:exported="true" />
+        <activity
+            android:name=".FlashActivity_7"
+            android:exported="true" />
+        <activity
+            android:name=".CameraActivity_6"
+            android:exported="true" />
+        <activity
+            android:name=".BluetoothActivity_5"
+            android:exported="true" />
+        <activity
+            android:name=".BlockActivity_4"
+            android:exported="true" />
+        <activity
+            android:name=".AlarmActivity_3"
+            android:exported="true" />
+        <activity
+            android:name=".AirplaneActivity_2"
+            android:exported="true" />
+        <activity
+            android:name=".SignalActivity_1"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
